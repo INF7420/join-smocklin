@@ -147,8 +147,16 @@ main {
     padding-top: 5px;
 }
 
+.main-about {
+    position: relative;
+    width: 100%;
+    column-count: 3;
+    min-height: 100%;
+
+}
+
 .about-col1 {
-    width: 33.33%;
+    width: 100%;
     text-align: left;
 }
 
@@ -168,13 +176,14 @@ main {
 }
 
 .about-col2 {
-    width: 33.33%;
+    width: 100%;
     text-align: center;
     padding-right: 15px;
 }
 
 .about-col3 {
-    width: 33.33%;
+    width: 100%;
+    padding-top: 75px;
 }
 
 .about-col3 h1 {
@@ -195,12 +204,14 @@ main {
     height: 50%;
     text-align: justify;
     padding: 10px;
+    margin-left: 52px;
 }
 
 .contact-col1 {
-    width: 50%;
+    width: 100%;
     padding-left: 200px;
     padding-right: 50px;
+    padding-top: 100px;
 }
 
 .contact-col1 h1 {
@@ -217,7 +228,7 @@ main {
 }
 
 .contact-col2 {
-    width: 50%;
+    width: 100%;
 }
 
 .contact-box {

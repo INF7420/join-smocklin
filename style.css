@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F6EFED;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #3A3C51;
+    height: 100%;
+}
+
+a {
+    color: #DD1048;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F44C65;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background-color: #0A1033;
+    margin: 20px 20px 15px 20px;
+}
+
+.wrapper {
+    height: calc(100vh - 80px);
+}
+
+.main-menu {
+    position: relative;
+    width: 100%;
+    column-count: 3;
+    height: 100px;
+}
+
+.main-nav {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.main-nav a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: inline;
+    padding: 10px;
+  }
+
+.main-nav a:hover {
+    color: #F44C65;
+    text-decoration: none;
+}
+
+.main-nav li {
+    text-align: left;
+    display: inline;
+}
+
+.menu-logo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+    letter-spacing: .5px;
+    padding: 20px;
+    color: #FFD23B;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.menu-icons {
+    width: 100%;
+    margin-top: 20px;
+    text-align: right;
+    padding-right:8px;
+}
+
+.menu-icons ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-icons a {
+    color: #F6EFED;
+    padding: 5px;
+}
+
+footer {
+    background-color: #0A1033;
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #F6EFED;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    clear: both;
+}
+
+main {
+    background-color: #F6EFED;
+    margin: 0 40px 0 40px;
+}
+
+.main-content {
+    position: relative;
+    width: 100%;
+    column-count: 2;
+    min-height: 100%;
+
+}
+
+.main-col1 {
+    width: 100%;
+    padding-left: 32px;
+}
+
+.main-col2 {
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.main-col2 img {
+    max-width: 90%;
+}
+
+.main-col2 h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+.main-col2 h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+.main-about {
+    position: relative;
+    width: 100%;
+    column-count: 3;
+    min-height: 100%;
+
+}
+
+.about-col1 {
+    width: 100%;
+    text-align: left;
+}
+
+.about-col1 h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.about-col1 h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.about-col2 {
+    width: 100%;
+    text-align: center;
+    padding-right: 15px;
+}
+
+.about-col3 {
+    width: 100%;
+    padding-top: 75px;
+}
+
+.about-col3 h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+
+.about-bio {
+    background-color: #0A1033;
+    color: #F6EFED;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 75%;
+    height: 50%;
+    text-align: justify;
+    padding: 10px;
+    margin-left: 52px;
+}
+
+.contact-col1 {
+    width: 100%;
+    padding-left: 200px;
+    padding-right: 50px;
+    padding-top: 100px;
+}
+
+.contact-col1 h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    text-align: left;
+}
+
+.contact-col1 b{
+    color: #FFD23B;
+}
+
+.contact-col2 {
+    width: 100%;
+}
+
+.contact-box {
+    width: 300px;
+    height: 150px;
+    background-color: #242743;
+    color: #F6EFED;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+}
+
+::-webkit-scrollbar {width: 5px;}
+::-webkit-scrollbar-track { background: #F6EFED;}
+::-webkit-scrollbar-thumb {background: #0A1033;}
+::-webkit-scrollbar-thumb:hover {background: #0A1033;}

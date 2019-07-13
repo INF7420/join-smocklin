@@ -244,12 +244,64 @@ main {
 
 .contact-box {
     width: 300px;
-    height: 150px;
-    background-color: #242743;
+    height: 315px;
+    background: #0A1033;
     color: #F6EFED;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    padding: 20px;
+    padding: 25px;
+    margin-top: 5px;
+}
+
+label {
+display: block;
+font-family: 'Montserrat', sans-serif;
+}
+
+.form-input {
+    border: 1px solid #777777;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 100%; 
+}
+
+.form-input:focus {
+    outline: none;
+    border: 1px solid #111111;
+}
+
+[type="submit"] {
+    width: 100%;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #111111;
+    border: 1px solid #777777;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+[type="submit"]:hover,
+[type="submit"]:focus {
+    background: #FFD23B;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.error {
+    border-color: red;
+}
+
+.error-message {
+    color: red;
+    margin: -5px 0 5px;
 }
 
 ::-webkit-scrollbar {width: 5px;}

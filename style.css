@@ -104,7 +104,7 @@ footer {
     width: 100%;
     height: 50px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     color: #F6EFED;
     font-size: 13px;
     text-align: center;
@@ -146,14 +146,14 @@ main {
 
 .main-col2 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 25px;
     padding-bottom: 5px;
 }
 
 .main-col2 h2 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 13px;
     padding-top: 5px;
 }
@@ -169,11 +169,13 @@ main {
 .about-col1 {
     width: 100%;
     text-align: left;
+    line-height: 17px;
+    padding-top: 20px;
 }
 
 .about-col1 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 25px;
     padding-bottom: 5px;
     text-align: center;
@@ -181,9 +183,18 @@ main {
 
 .about-col1 h2 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 18px;
     padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.about-col1 ul {
+    padding-left: 30px;
+}
+
+.about-col1 li {
+    font-size: 12px;
 }
 
 .about-col2 {
@@ -199,7 +210,7 @@ main {
 
 .about-col3 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 25px;
     padding-bottom: 5px;
     text-align: center;
@@ -227,7 +238,7 @@ main {
 
 .contact-col1 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 25px;
     padding-bottom: 5px;
     padding-left: 5px;
@@ -354,15 +365,15 @@ textarea {
     }
 
     .mobile-nav {
-        margin-top: 0px;
+        margin-top: 10px;
     }
-    
+
     .mobile-nav a {
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
-        font-size: 16px;
+        font-size: 18px;
         text-transform: uppercase;
-        display: block;
+        display: inline;
         padding: 10px;
     }
     
@@ -373,7 +384,7 @@ textarea {
 
     .mobile-nav li {
         text-align: left;
-        display: block;
+        display: inline;
     }
 
     .mobile-logo {
@@ -383,7 +394,7 @@ textarea {
         padding: 20px;
         color: #FFD23B;
         text-align: center;
-        margin-top: -100px;
+        margin-top: -90px;
     }
 
     .mobile-footer {
@@ -393,7 +404,7 @@ textarea {
         height: 50px;
         line-height: 50px;
         font-family: 'Montserrat', sans-serif;
-        font-weight: 300;
+        font-weight: 400;
         color: #F6EFED;
         font-size: 13px;
         text-align: left;
@@ -431,7 +442,7 @@ textarea {
 
     .mobile-content h1 {
         font-family: 'Montserrat', sans-serif;
-        font-weight: 300;
+        font-weight: 400;
         font-size: 25px;
         padding-bottom: 10px;
         text-align: center;
@@ -439,7 +450,7 @@ textarea {
     
     .mobile-content h2 {
         font-family: 'Montserrat', sans-serif;
-        font-weight: 300;
+        font-weight: 400;
         font-size: 15px;
         padding-top: 5px;
         text-align: center;
@@ -484,12 +495,21 @@ textarea {
         font-size: 25px;
         text-align: center;
     }
+
+    .section2a ul {
+        padding-left: 30px;
+    }
+
+    .section2a li {
+        font-size: 13px;
+    }
     
     .section2a h2 {
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
-        font-size: 17px;
+        font-size: 18px;
         padding-top: 5px;
+        padding-bottom: 5px;
         text-align: left;
     }
 

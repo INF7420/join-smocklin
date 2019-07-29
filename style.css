@@ -193,9 +193,6 @@ main {
     padding-left: 30px;
 }
 
-.about-col1 li {
-    font-size: 12px;
-}
 
 .about-col2 {
     width: 100%;
@@ -313,6 +310,12 @@ textarea {
 .error-message {
     color: red;
     margin: -5px 0 5px;
+}
+
+.bio-desk {
+    height: 300px; 
+    overflow: auto; 
+    padding-right: 2px;
 }
 
 
@@ -499,10 +502,6 @@ textarea {
     .section2a ul {
         padding-left: 30px;
     }
-
-    .section2a li {
-        font-size: 13px;
-    }
     
     .section2a h2 {
         font-family: 'Montserrat', sans-serif;
@@ -525,6 +524,16 @@ textarea {
 
     .main-about {
         display: none;
+    }
+
+    .bio-mobile {
+        height: 232px; 
+        overflow: auto; 
+        padding-right: 2px;
+    }
+
+    .mobile-padding {
+        padding-top: 10px;
     }
 }
 ::-webkit-scrollbar {width: 5px;}
